@@ -1,0 +1,19 @@
+{
+  "name": "laureafullstack_jensun",
+  "version": "1.0.0",
+  "description": "Tämä on Laurean FullStack 2025 kurssia varten toteutettu kansio.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chimkem/LaureaFullStack_JenSun.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chimkem/LaureaFullStack_JenSun/issues"
+  },
+  "homepage": "https://github.com/chimkem/LaureaFullStack_JenSun#readme"
+}
