@@ -4,4 +4,4 @@ function uppercase(text) {
 function reverse(text) {
     return text.split('').reverse().join('');
 }
-module.exports = { uppercase, reverse }
+module.exports = { uppercase, reverse };
