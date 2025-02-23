@@ -1,4 +1,5 @@
 const http = require("http");
+//Hostnamen kohdalle voi myös laittaa localhost niin halutessaan. Samaan osoitteeseen kuitenkin menee.
 const hostname = "127.0.0.1";
 const port = 3000;
 
