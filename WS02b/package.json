@@ -15,6 +15,7 @@
     "url": "git+https://github.com/chimkem/LaureaFullStack_JenSun/tree/main/WS02a"
   },
   "dependencies": {
-    "axios": "^1.8.1"
+    "axios": "^1.8.1",
+    "fs": "^0.0.1-security"
   }
 }
