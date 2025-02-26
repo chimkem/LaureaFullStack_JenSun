@@ -1,3 +1,4 @@
 // Message
 const message = 'Hello, this is my second app.js!'
-console.log(message);
+const smessage = 'Hello nodemon!'
+console.log(message, smessage);
