@@ -7,7 +7,7 @@ Pöytäkoneen tiedot:
 Node versio: v22.14.0  
 Npm versio: 11.1.0
 ## Toteutetut tehtävät:
-Exercise 1: Initializing a Node.js Project and Installing Packages  
+Exercise 1: ✅ Initializing a Node.js Project and Installing Packages  
 Exercise 2: Managing Development Dependencies   
 Exercise 3: Updating and Removing Packages  
 Exercise 4: Reading Files  
