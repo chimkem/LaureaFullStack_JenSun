@@ -1,0 +1,16 @@
+{
+  "name": "ws02b",
+  "version": "1.0.0",
+  "description": "Toinen tehtäväpalautus",
+  "license": "ISC",
+  "author": "Jenna S",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chimkem/LaureaFullStack_JenSun/tree/main/WS02a"
+  }
+}
