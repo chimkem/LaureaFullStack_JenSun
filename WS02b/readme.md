@@ -14,4 +14,4 @@ Exercise 4: ✅ Reading Files
 Exercise 5: ✅ Writing Files  
 Exercise 6: ✅ Deleting Files  
 Exercise 7: ✅ Working with Directories  
-Exercise 8: Watching for File Changes  
+Exercise 8: ✅ Watching for File Changes  

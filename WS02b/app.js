@@ -1,5 +1,6 @@
 const fs = require("fs");
 const path = require("path");
+const filePath = path.join(__dirname, 'files', 'watch.txt');
 const message = '--- My Second node.js app ---'
 // --------------------------------------------
 // Message
@@ -20,7 +21,7 @@ fs.writeFile(path.join(__dirname, 'files', 'output.txt'), 'Tässä tekstiä, jok
     })
     console.log('Tiedosto luotu onnistuneesti!');
 })
-// Delete files
+// Delete a file
 fs.unlink(path.join(__dirname, 'files', 'temp.txt'), (err) => {
     if (err) throw err;
     console.log('Tiedosto poistettu onnistuneesti!');
@@ -39,6 +40,10 @@ if (fs.existsSync('./testDir')) {
         console.log('Kansio poistettu onnistuneesti!');
     });
 }
+// Watching for file changes
+fs.watch(filePath, (eventType, filename) => {
+    console.log(`Tiedostoa ${filename} on muokattu seuraavalla tavalla: ${eventType}`);
+});
 // Exit on uncaught errors
 process.on('uncaughtException', err => {
     console.error(`Johtain meni vikaan! ${err}`);
