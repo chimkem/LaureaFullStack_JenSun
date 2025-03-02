@@ -1,6 +1,5 @@
 # Toinen workshop kansio
-Huom!  
-Luin hieman huonosti tehtävänannon, joten pistin tiedostoihin liittyvät tehtävät yhteen fileapp.js alle ja irrotin axios:in app.js tiedostoon, kun tajusin koko API:n olemassaolon vasta palautusvaiheessa. 😅
+Tehtävänanto oli hieman sekava itselleni joten toteutin kaksi versiota: scritit erillään ja yhden alltogeterapp.js nimisen tiedoston, jossa kaikki scriptit ovat samassa tiedostossa.
 <br><br>
 Kannettavan tiedot:  
 Node versio: v22.13.1  
