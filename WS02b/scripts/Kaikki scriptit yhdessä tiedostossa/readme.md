@@ -1,0 +1,2 @@
+En ollut varma pitikö näiden olla samassa paikassa joten tein nyt kummatkin versiot :D
+Tämä ei ole toiminnassa tiedostosijainnin ollessa eri, mutta jätin itselleni tämän tulevaisuutta ajatellen paikoilleen.

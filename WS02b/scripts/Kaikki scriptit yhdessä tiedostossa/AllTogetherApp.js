@@ -1,10 +1,17 @@
 const fs = require("fs");
 const path = require("path");
 const filePath = path.join(__dirname, 'files', 'watch.txt');
-const message = '--- My Second node.js app ---'
-// --------------------------------------------
-// Message
-console.log(message);
+const axios = require('axios');
+
+// GET pokemon API data using Axios
+axios.get('https://pokeapi.co/api/v2/pokemon/charmander')
+  .then(response => {
+    console.log(`Pokemon name: ${response.data.name}`);
+    console.log(`Type: ${response.data.types[0].type.name}`);
+  })
+  .catch(error => {
+    console.error(error.message);
+});
 // Read file
 fs.readFile(path.join(__dirname, 'files', 'example.txt'), 'utf8', (err, data) => {
     if (err) throw err;
