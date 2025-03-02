@@ -1,4 +1,7 @@
 # Toinen workshop kansio
+Huom!  
+Luin hieman huonosti tehtävänannon, joten pistin tiedostoihin liittyvät tehtävät yhteen fileapp.js alle ja irrotin axios:in app.js tiedostoon, kun tajusin koko API:n olemassaolon vasta palautusvaiheessa. 😅
+<br><br>
 Kannettavan tiedot:  
 Node versio: v22.13.1  
 Npm versio: 10.9.2 
