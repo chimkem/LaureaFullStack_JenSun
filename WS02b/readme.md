@@ -1,5 +1,5 @@
 # Toinen workshop kansio
-Tehtävänanto oli hieman sekava itselleni joten toteutin kaksi versiota: scritit erillään ja yhden alltogeterapp.js nimisen tiedoston, jossa kaikki scriptit ovat samassa tiedostossa.
+Tehtävänanto oli hieman sekava itselleni joten toteutin kaksi versiota: scriptit erillään ja yhden alltogeterapp.js nimisen tiedoston, jossa kaikki scriptit ovat samassa tiedostossa.
 <br><br>
 Kannettavan tiedot:  
 Node versio: v22.13.1  
