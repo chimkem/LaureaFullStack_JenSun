@@ -1,0 +1,15 @@
+{
+  "name": "ws03a",
+  "version": "1.0.0",
+  "description": "Kolmas tehtäväpalautus",
+  "license": "ISC",
+  "author": "Jenna S",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
