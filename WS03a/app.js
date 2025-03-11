@@ -4,11 +4,23 @@ const path = require('path')
 require('dotenv').config();
 const PORT = process.env.PORT || 3000;
 
-app.get('/', (req, res) => {
-    res.send('Hello World!');
-});
+app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/index.html', express.static(path.join(__dirname, 'public', 'index.html')));
+app.get(['/', '/index(.html)?'], (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'index.html'));
+});
+app.get(['/about(.html)?'], (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'about.html'));
+});
+app.get(['/contact(.html)?'], (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'contact.html'));
+});
+app.get(['/services(.html)?'], (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'services.html'));
+});
+/* app.get('/', (req, res) => {
+    res.send('Hello World!');
+}); 
 
 app.get('/about', (req, res) => {
     res.send('About Page');
@@ -20,7 +32,7 @@ app.get('/contact', (req, res) => {
 
 app.get('/services', (req, res) => {
     res.send('Services Page');
-});
+}); */
 
 // 404 route
 app.get('*', (req, res) => {
