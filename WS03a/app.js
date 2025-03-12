@@ -6,18 +6,30 @@ const PORT = process.env.PORT || 3000;
 
 app.use(express.static(path.join(__dirname, 'public')));
 
+function logger(req, res, next) {
+    console.log('Log')
+    next()
+}
 app.get(['/', '/index(.html)?'], (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
-app.get(['/about(.html)?'], (req, res) => {
+
+app.get('/about(.html)?', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'about.html'));
 });
-app.get(['/contact(.html)?'], (req, res) => {
+
+app.get('/contact(.html)?', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'contact.html'));
 });
-app.get(['/services(.html)?'], (req, res) => {
+
+app.get('/services(.html)?', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'services.html'));
 });
+
+app.post('/submit(.html)?', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'submit.html'));
+});
+
 /* app.get('/', (req, res) => {
     res.send('Hello World!');
 }); 
