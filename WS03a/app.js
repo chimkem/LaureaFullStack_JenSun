@@ -6,13 +6,9 @@ const PORT = process.env.PORT || 3000;
 
 app.use(express.static(path.join(__dirname, 'public')));
 
-function logger(req, res, next) {
-    console.log('Log')
-    next()
-}
-app.get(['/', '/index(.html)?'], (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'index.html'));
-});
+app.get("/", function (req, res) {
+    res.render("/index.html");
+  });
 
 app.get('/about(.html)?', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'about.html'));
@@ -26,7 +22,7 @@ app.get('/services(.html)?', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'services.html'));
 });
 
-app.post('/submit(.html)?', (req, res) => {
+app.get('/submit', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'submit.html'));
 });
 
@@ -48,9 +44,10 @@ app.get('/services', (req, res) => {
 
 // 404 route
 app.get('*', (req, res) => {
-    res.send('Error, cannot find the page', 404)
+    res.status(404).send('Error, cannot find the page')
 });
 
 app.listen(PORT, () => {
     console.log('App listening to port: ' + PORT)
+    console.log('http://localhost:'+PORT)
 });
