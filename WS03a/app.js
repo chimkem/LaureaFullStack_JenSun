@@ -1,10 +1,15 @@
 const express = require('express');
 const app = express();
-const path = require('path')
+const path = require('path');
 require('dotenv').config();
 const PORT = process.env.PORT || 3000;
+const bodyparser = require('body-parser');
 
 app.use(express.static(path.join(__dirname, 'public')));
+
+// BodyParser
+app.use(bodyparser.urlencoded({ extended: true }))
+app.use(bodyparser.json())
 
 app.get("/", function (req, res) {
     res.render("/index.html");
@@ -24,6 +29,12 @@ app.get('/services(.html)?', (req, res) => {
 
 app.get('/submit', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'submit.html'));
+
+});
+
+app.post('/submit', (req, res) => {
+    res.send(req.body);
+    // console.log(req.body); Tämä omaa testausta varten
 });
 
 /* app.get('/', (req, res) => {
