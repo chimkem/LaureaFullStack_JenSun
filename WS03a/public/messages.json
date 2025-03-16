@@ -1,0 +1,27 @@
+[
+  {
+    "email": "alex@lohja.co",
+    "username": "Alex",
+    "message": "Yeehaaw!"
+  },
+  {
+    "email": "hilla@lakka.fi",
+    "username": "Hiltsu",
+    "message": "En ymmärrä."
+  },
+  {
+    "email": "j@ssoo.com",
+    "username": "Lisa",
+    "message": "Vois mennä jo nukkumaan."
+  },
+  {
+    "email": "The@Saurus",
+    "username": "Heavy",
+    "message": "👀"
+  },
+  {
+    "email": "kulta@lusikka",
+    "username": "Onnetar",
+    "message": "Lorem ipsum dolor sit amet."
+  }
+]
