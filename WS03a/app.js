@@ -39,7 +39,7 @@ app.use(bodyparser.json());
 // Routes
 app.get("/", function (req, res) {
     res.render("/index");
-  });
+});
 app.get('/about(.html)?', Custom, (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'about.html'));
 });
@@ -113,7 +113,6 @@ app.post('/add', (req, res) => {
         });
     });
 });
-
 
 // ----------- Exercise 1 - Alkuperäinen -----------
 /* app.get('/', (req, res) => {
