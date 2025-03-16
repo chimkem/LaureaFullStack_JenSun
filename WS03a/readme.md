@@ -10,5 +10,5 @@ Npm versio: 11.1.0
 Exercise 1: ✅ Setting Up an Express Project and Creating Basic Routes  
 Exercise 2: ✅ Serving Static Files  
 Exercise 3: ✅ Handling POST Requests  
-Exercise 4: ✖️ Using Middleware  
+Exercise 4: ✅ Using Middleware  
 Exercise 5: ✅ Advanced Static File Serving and Data Handling  
