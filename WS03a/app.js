@@ -9,7 +9,6 @@ const ejs = require("ejs");
 const fs = require('fs');
 // -----------------------------------------
 
-
 // ----------------- Exercise 4 ----------------------
 // Logging function
 function logger(req, res, next) {
@@ -17,6 +16,14 @@ function logger(req, res, next) {
     next();
 }
 app.use(logger);
+
+// Custom-Header function (Used in a route /about)
+function Custom(req, res, next) {
+    if (!req.headers['x-custom-header']) {
+        console.error('X-Custom-Header is missing');
+    }
+    next();
+}
 
 // Set views
 app.set("views", `${__dirname}/views`)
@@ -34,7 +41,7 @@ app.use(bodyparser.json());
 app.get("/", function (req, res) {
     res.render("/index");
   });
-app.get('/about(.html)?', (req, res) => {
+app.get('/about(.html)?', Custom, (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'about.html'));
 });
 app.get('/contact(.html)?', (req, res) => {
