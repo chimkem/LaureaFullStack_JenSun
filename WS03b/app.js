@@ -37,6 +37,11 @@ const data = [
 // ----------- Exercise 4 -----------
 let Kirjautunut = false;
 
+// ----------- Exercise 1.4 -----------
+app.get('/basic', (req, res) => {
+    res.render('pages/message');
+});
+
 app.get('/', (req, res) => {
     res.render('pages/index', { Kirjautunut, data:data, userdata:userdata });
 });
