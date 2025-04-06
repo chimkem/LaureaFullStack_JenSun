@@ -1,0 +1,45 @@
+* {
+    margin:0;
+    padding:0;
+}
+body{
+    margin:0;
+    padding:0;
+}
+h1, h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.box {
+    padding: 20px;
+    width: 300px;
+    height: 90px;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: white;
+    background-color: rgb(100, 69, 100);
+}
+h3 {
+    font-style: italic;
+}
+#kuplat {
+    margin-top: 20px;
+}
+.formi {
+    margin: 10px;
+    padding: 5px;
+    font-size: 15px;
+}
+input {
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 14px;
+    margin: 10px;
+}
+.inputbutton {
+    margin-top: 20px;
+    background-color: #773177;
+    color: white;
+    border: transparent;
+}

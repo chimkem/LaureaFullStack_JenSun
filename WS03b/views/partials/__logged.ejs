@@ -1,0 +1,42 @@
+<!-- Käyttäjä on "kirjautunut" -->
+<div class="row g-0">
+    <div class="col-sm px-md-5">
+        <h1>Tervetuloa kuutamolle!</h1>
+        <h3>Miten menee tänään <%= locals.userdata.user %>?</h3>
+            <% for(let i = 0; i < 3; i++){ %> 
+                <div>Yhteys palvelimeen katkesi, palautetaan istuntoa (<%= i + 1 %>)</div>
+            <% } %>
+    </div>
+    <div class="col-sm px-md-5">
+        <h2>Ryhmäsi mietteitä...</h2>
+        <table class="table table-success table-striped" style="width: 500px;">
+            <thead>
+              <tr>
+                <th scope="col">Käyttäjä</th>
+                <th scope="col">Päivän motto</th>
+              </tr>
+            </thead>
+            <!-- Exercise 5 loop -->
+            <tbody>
+              <% locals.data.forEach(post=> {%>
+                  <tr>
+                    <td><%= post.user %></td>
+                    <td><%= post.motto %></td>
+                  </tr>
+              <% }) %>
+            </tbody>
+        </table>
+    </div>
+    <div class="col-sm px-md-5" id="kuplat">
+        <div class="box">
+            <% let now = new Date(); %> <!-- Päivämäärän määrittelyyn käytetty AI:n apua. -->
+            <p>Tänään on <%= now.toLocaleDateString() %><br>Tarkka kellonaika: <%= now.toLocaleTimeString() %></p>
+        </div>
+        <div class="box">
+            <p style="font-style: italic;">Päivän mietteesi:<br>"<%= locals.userdata.motto %>"</p>
+        </div>
+        <div class="box">
+            <p>Olet jo lukenut foorumiltamme <%= locals.userdata.prosentti %>% kaikista postauksista.🫢</p>
+        </div>
+    </div>
+</div>

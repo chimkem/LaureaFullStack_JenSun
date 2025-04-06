@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('../partials/__header'); %>
+    <%- include('../partials/__banner'); %>
+<body>
+    <% if (Kirjautunut) { %>
+        <%- include('../partials/__logged'); %>
+      <% } else { %>
+        <%- include('../partials/__login'); %>
+      <% } %>
+</body>
+    <%- include('../partials/__footer'); %>
+</html>
