@@ -15,7 +15,7 @@ Exercise 5: ✅ Looping in EJS
 ## Maininta AI:n käytöstä
 AI:ta on käytetty pääsääntöisesti kirjautumisnapin ja päivämäärälogiikan luomiseen. Löysin tämän tehtävän kohdalla ihan hyvin vastauksia ja ohjeita Stackoverflown, Youtuben ja opetusmateriaalien kautta, joten AI:hin ei tarvinnut paljoa tukeutua.
 ## Muut materiaalit
-Tehtävän ulkoasuun on käytetty Bootrstappia.  
+Tehtävän ulkoasuun on käytetty Bootsrappia.  
 Bannerikuva on omaa työnjälkeäni.  
 https://getbootstrap.com/  
 https://www.w3schools.com/  
