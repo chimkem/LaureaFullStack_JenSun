@@ -30,7 +30,7 @@ En saanut omaa koodiani korjattua deadlineen mennessä, joten tämä toiminto pa
 Onnistunut poisto tulostaa:
 {
     "message": "DELETE request succesfull",
-    "userID": "6817cc1debefe7be6b78c02d"
+    "userID": "numeroita"
 }  
 Epäonnistunut poisto tulostaa: 
 {error: '400 Bad Request'} 
