@@ -25,7 +25,7 @@ Onnistunut haku tulostaa annetun käyttäjän tiedot JSON muodossa.
 Epäonnistunut haku tulostaa:  
 { error: '400 Bad Request' }
 <br>  
-PATCH - http://localhost:4000/api/update/id
+PATCH - http://localhost:4000/api/update/id  
 /api/update/id päivittää annetun käyttäjän tiedot (tässä tapauksessa pelkästään työ) annetulle ID:lle.    
 En saanut omaa koodiani korjattua deadlineen mennessä, joten tämä toiminto palauttaa:  
 { error: '501 Not Implemented' }
