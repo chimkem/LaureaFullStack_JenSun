@@ -12,7 +12,7 @@ Npm versio: 11.1.0
 Sovellukseni hakee tietoa perustuen annettuihin parametreihin. Se on yhdistetty MongoDB tietokantaan, jossa jokaisen käyttäjän kohdalla on käyttäjänimi, lempinimi, ammatti/työ ja puhelinnumero.
 <br> 
 Tässä sovelluksessa on viisi reittiä:  
-- /api/getall hakee kaikkien käyttäjien tiedot koko databasesta JSON tiedostona.  
+/api/getall hakee kaikkien käyttäjien tiedot koko databasesta JSON tiedostona.  
 Onnistunut haku tulostaa annetun kaikkien käyttäjien tiedot JSON muodossa.  
 Epäonnistunut haku tulostaa:  
 { error: '400 Bad Request' }
