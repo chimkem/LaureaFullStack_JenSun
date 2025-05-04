@@ -12,21 +12,21 @@ Npm versio: 11.1.0
 Sovellukseni hakee tietoa perustuen annettuihin parametreihin. Se on yhdistetty MongoDB tietokantaan, jossa jokaisen käyttäjän kohdalla on käyttäjänimi, lempinimi, ammatti/työ ja puhelinnumero.
 <br> 
 Tässä sovelluksessa on viisi reittiä:  
-- /api/getall hakee kaikkien käyttäjien tiedot koko databasesta JSON tiedostona.
-Onnistunut haku tulostaa annetun kaikkien käyttäjien tiedot JSON muodossa.
+- /api/getall hakee kaikkien käyttäjien tiedot koko databasesta JSON tiedostona.  
+Onnistunut haku tulostaa annetun kaikkien käyttäjien tiedot JSON muodossa.  
 Epäonnistunut haku tulostaa:  
 { error: '400 Bad Request' }
 <br> 
-- /api/:id hakee käyttäjän tiedot ID:n perusteella.  
+/api/:id hakee käyttäjän tiedot ID:n perusteella.    
 Onnistunut haku tulostaa annetun käyttäjän tiedot JSON muodossa.  
 Epäonnistunut haku tulostaa:  
 { error: '400 Bad Request' }
 <br> 
-- /api/update/id päivittää annetun käyttäjän tiedot (tässä tapauksessa pelkästään työ) annetulle ID:lle.  
+/api/update/id päivittää annetun käyttäjän tiedot (tässä tapauksessa pelkästään työ) annetulle ID:lle.    
 En saanut omaa koodiani korjattua deadlineen mennessä, joten tämä toiminto palauttaa:  
 { error: '501 Not Implemented' }  
 <br> 
-- /api/delete/id poistaa käyttäjän ID:n perusteella tietokannasta.    
+/api/delete/id poistaa käyttäjän ID:n perusteella tietokannasta.    
 Onnistunut poisto tulostaa:  
 {
     "message": "DELETE request succesfull",
