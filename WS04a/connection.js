@@ -1,6 +1,8 @@
 const { MongoClient } = require('mongodb');
 require('dotenv').config();
 
+
+
 async function main() {
     const uri = process.env.MONGODB_URI;
 
@@ -13,6 +15,7 @@ async function main() {
 
         // Make the appropriate DB calls
         await listDatabases(client);
+        await listDocuments(client);
 
     } catch (e) {
         console.error(e);
@@ -34,3 +37,17 @@ async function listDatabases(client) {
     console.log("Databases:");
     databasesList.databases.forEach(db => console.log(` - ${db.name}`));
 };
+
+
+/**
+ * Print the documents from users collection
+ */
+async function listDocuments(client) {
+    const database = client.db("local_library"); // Replace with your DB name
+    const collection = database.collection("users");
+
+    const cursor = collection.find(); // Get all documents
+
+    console.log("Documents in 'users' collection:");
+    await cursor.forEach(doc => console.log(doc));
+}

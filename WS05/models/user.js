@@ -5,31 +5,21 @@ const userSchema = new mongoose.Schema({
     username: {
         type: String,
         required: true,
-        minlenght: 4
+        minlength: 4
     },
     nickname: {
         type: String,
-        required: false,
+        required: false
     },
-    email: {
+    job: {
         type: String,
-        required: false,
+        required: true
     },
     number: {
-        type: Number,
-        required: true
-    },
-    group: {
         type: String,
-        required: true
+        required: true,
+        minlength: 8
     }
 });
 
-userSchema.methods.valid = function valid() {
-    const validation = this.username
-        ? "Käyttäjänimi: " + this.username + "on aktiivinen"
-        : "Tämä käyttäjänimi on vapaa"
-    console.log(validation);
-};
-
-module.exports = mongoose.model('user', userSchema);
+module.exports = mongoose.model('User', userSchema);
