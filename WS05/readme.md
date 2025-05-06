@@ -24,9 +24,9 @@ Epäonnistunut haku tulostaa:
 - - -
 ```GET - http://localhost:4000/api/id```   
 /api/:id hakee käyttäjän tiedot ID:n perusteella.    
-Onnistunut haku tulostaa annetun käyttäjän tiedot JSON muodossa.  
+Onnistunut haku tulostaa annetun käyttäjän tiedot JSON muodossa.   
 ![GETONE](/WS05/screenshots/getone.png)
-Epäonnistunut haku tulostaa { error: '404 - User not Found' } 
+Epäonnistunut haku tulostaa { error: '404 - User not Found' }  
 ![GETONE_ERROR](/WS05/screenshots/errorget.png)
 <br>  
 - - -
@@ -37,9 +37,9 @@ Onnistunut haku tulostaa:
 Epäonnistunut haku tulostaa:  
 { error: "404 - User with this ID not found"}
 
-Tässä kuva onnistuneesta päivityksestä:
+Tässä kuva onnistuneesta päivityksestä:  
 ![UPDATE](/WS05/screenshots/update.png)
-Halusin tehdä asiat itselleni vaikeaksi, joten tässä vielä GET - toiminnolla haettu ID:n mukaan kyseinen käyttäjä päivityksen jälkeen.
+Halusin tehdä asiat itselleni vaikeaksi, joten tässä vielä GET - toiminnolla haettu ID:n mukaan kyseinen käyttäjä päivityksen jälkeen.  
 ![UPDATED](/WS05/screenshots/getone_updated.png)
 <br> 
 - - -
@@ -53,11 +53,11 @@ Epäonnistunut poisto tulostaa:
 Lisäsin myös erikseen tekstin sellaiselle tilanteelle, jossa käyttäjä on joskus ollut databasessa, mutta se on poistettu.  
 { error: '410 - User with this ID is already deleted' }
 - - -
-Jos käyttäjä on databasessa:
+Jos käyttäjä on databasessa:  
 ![DELETE](/WS05/screenshots/delete.png)
-Jos käyttäjä on ollut databasessa ja se on aiemmin poistettu:
+Jos käyttäjä on ollut databasessa ja se on aiemmin poistettu:  
 ![DELETE1](/WS05/screenshots/del.png)
-Jos käyttäjä ei ole ollenkaan databasessa:
+Jos käyttäjä ei ole ollenkaan databasessa:  
 ![DELETE2](/WS05/screenshots/delete2.png)
 <br> 
 ## Maininta AI:n käytöstä
