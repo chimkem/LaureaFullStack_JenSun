@@ -61,7 +61,7 @@ Jos käyttäjä ei ole ollenkaan databasessa:
 ![DELETE2](/WS05/screenshots/notfounddeleted.png)  
 <br> 
 ## Maininta AI:n käytöstä
-AI:ta on käytetty pääsääntöisesti ongelmienratkontaan. Löysin tämänkin tehtävän kohdalla ihan hyvin vastauksia ja ohjeita Stackoverflown, Youtuben ja opetusmateriaalien kautta.
+AI:ta on käytetty pääsääntöisesti ongelmienratkontaan. Omassa tapauksessani ongelma oli pitkään MongoDB:n ja oman NodeJS koodini yhteyden kanssa, johon koitin saada apua ChatGPT:ltä. Loppujenlopuksi löysin sopivan ohjeen StackOverflown puolelta, ja olenkin sen tänne tiedostoon linkittänyt. Löysin myös hyvin vastauksia ja ohjeita tämän tehtävän kohdalla mm. Youtuben ja opetusmateriaalien kautta.
 ## Muuta
 Laittelen tänne omasta mielestä hyviä sivuja ja ohjeita, joita tuli käytettyä apuna tehtävää tehdessä. 
 <br><br>
