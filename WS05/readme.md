@@ -53,12 +53,12 @@ Epäonnistunut poisto tulostaa:
 Lisäsin myös erikseen tekstin sellaiselle tilanteelle, jossa käyttäjä on joskus ollut databasessa, mutta se on poistettu.  
 { error: '410 - User with this ID is already deleted' }
 - - -
-Jos käyttäjä on databasessa:  
-![DELETE](/WS05/screenshots/delete.png)  
+Onnistunut poisto:  
+![DELETE](/WS05/screenshots/deletedUser.png)  
 Jos käyttäjä on ollut databasessa ja se on aiemmin poistettu:  
-![DELETE1](/WS05/screenshots/del.png)  
+![DELETE1](/WS05/screenshots/alreadydeletedUser.png)  
 Jos käyttäjä ei ole ollenkaan databasessa:  
-![DELETE2](/WS05/screenshots/delete2.png)  
+![DELETE2](/WS05/screenshots/notfounddeleted.png)  
 <br> 
 ## Maininta AI:n käytöstä
 AI:ta on käytetty pääsääntöisesti ongelmienratkontaan. Löysin tämänkin tehtävän kohdalla ihan hyvin vastauksia ja ohjeita Stackoverflown, Youtuben ja opetusmateriaalien kautta. PATCH toiminto on vielä palautuksen aikaan kesken sekä erroreiden kohdalla olisi voinut olla tarkempi, joten aion sitä korjailla vielä palautuksen jälkeen (huomioitu palauttaessa).
