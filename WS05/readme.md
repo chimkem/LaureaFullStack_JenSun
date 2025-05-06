@@ -61,9 +61,9 @@ Jos käyttäjä ei ole ollenkaan databasessa:
 ![DELETE2](/WS05/screenshots/notfounddeleted.png)  
 <br> 
 ## Maininta AI:n käytöstä
-AI:ta on käytetty pääsääntöisesti ongelmienratkontaan. Löysin tämänkin tehtävän kohdalla ihan hyvin vastauksia ja ohjeita Stackoverflown, Youtuben ja opetusmateriaalien kautta. PATCH toiminto on vielä palautuksen aikaan kesken sekä erroreiden kohdalla olisi voinut olla tarkempi, joten aion sitä korjailla vielä palautuksen jälkeen (huomioitu palauttaessa).
+AI:ta on käytetty pääsääntöisesti ongelmienratkontaan. Löysin tämänkin tehtävän kohdalla ihan hyvin vastauksia ja ohjeita Stackoverflown, Youtuben ja opetusmateriaalien kautta.
 ## Muuta
-Laittelen tänne omasta mielestä hyviä sivuja ja ohjeita, joita tuli käytettyä apuna tehtävää tehdessä.
+Laittelen tänne omasta mielestä hyviä sivuja ja ohjeita, joita tuli käytettyä apuna tehtävää tehdessä. 
 <br><br>
 Error Statukset:
 - W3Schools, https://www.w3schools.com/tags/ref_httpmessages.asp   
