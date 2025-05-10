@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/chimkem/LaureaFullStack_JenSun/issues"
   },
-  "homepage": "https://github.com/chimkem/LaureaFullStack_JenSun#readme"
+  "homepage": "https://github.com/chimkem/LaureaFullStack_JenSun#readme",
+  "dependencies": {
+    "react-router-dom": "^7.6.0"
+  }
 }
