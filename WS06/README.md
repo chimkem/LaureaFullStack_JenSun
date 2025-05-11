@@ -36,4 +36,16 @@ Ohjelma on toteutettu reactilla ja se toimii kaikessa yksinkertaisuudessaan seur
 > - Käyttäjä voi lisätä, filtteröidä, poistaa tai muokata kavereita listassa.  
 - - -
 
-**Kuvat tulee myöhemmin...**
+## Default - lista kontakteilla ja ilman  
+![OG](/WS06/Screenshots/1a.png)  
+![OG2](/WS06/Screenshots/1aa.png)  
+## Tiedostojen poisto
+![OG](/WS06/Screenshots/3a.png)  
+![OG](/WS06/Screenshots/4a.png)  
+## Lemppariksi merkintä + hakutoiminto
+![OG](/WS06/Screenshots/6a.png) 
+![OG](/WS06/Screenshots/7a.png)  
+## Kontaktien muokkaus
+![OG](/WS06/Screenshots/8a.png) 
+![OG](/WS06/Screenshots/9a.png)  
+![OG](/WS06/Screenshots/10a.png) 
