@@ -49,3 +49,4 @@ Ohjelma on toteutettu reactilla ja se toimii kaikessa yksinkertaisuudessaan seur
 ![OG](/WS06/Screenshots/8a.png) 
 ![OG](/WS06/Screenshots/9a.png)  
 ![OG](/WS06/Screenshots/10a.png) 
+---
