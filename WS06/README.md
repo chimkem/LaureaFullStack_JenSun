@@ -25,6 +25,8 @@ Ohjelma on toteutettu reactilla ja se toimii kaikessa yksinkertaisuudessaan seur
 ![FILTTERI](/WS06/Screenshots/5.png) 
 ## Uuden tehtävän lisääminen
 ![NEW](/WS06/Screenshots/6.png) 
+## Laskuri + tehtävien poisto
+![NEW](/WS06/Screenshots/9.png) 
 ---
 # BONUS - ReactRouter
 Seurattu seuraavaa tutoriaalia:  
